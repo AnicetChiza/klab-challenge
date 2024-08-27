@@ -1,0 +1,90 @@
+/* ---------------------- /
+#Reset
+/----------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+/* ---------------------- /
+#General
+/----------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+.padding {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* ---------------------- /
+#Body
+/----------------------- */
+
+body {
+    font-size: 1rem;
+    background-color: #4b4b4b;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+
+/* ---------------------- /
+#Heder
+/----------------------- */
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.container a {
+    color: #bfbfbf;
+    transition-delay: 0.2s;
+    transition: 0.4s ease-in;
+}
+
+.container .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+}
+
+.container .logo span {
+    font-size: 20px;
+    color: #fff;
+}
+
+.container .list ul {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    -webkit-column-gap: 30px;
+}
+
+.container .list ul a:hover {
+    color: #fff;
+}
+
+.container .list ul .active {
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.container .list ul .active:hover {
+    border-bottom: 1px solid #fff;
+}
