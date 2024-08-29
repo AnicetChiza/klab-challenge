@@ -101,7 +101,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #dddddd7c;
 }
 
 .cover-page .bloc-container {
@@ -163,7 +163,7 @@ body {
     color: #fff;
     padding-top: 60px;
     padding-bottom: 60px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #dddddd7c;
 }
 
 .project h2 {
@@ -211,7 +211,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #dddddd7c;
 }
 
 
@@ -225,6 +225,7 @@ body {
     padding-bottom: 60px;
     display: grid;
     grid-template-columns: 50% auto;
+    border-bottom: 1px solid #dddddd7c;
 }
 
 .about-me div h2 {
@@ -238,10 +239,22 @@ body {
 }
 
 .about-me .my-resume a {
-    color: #4e8590;
+    color: #fff;
     display: flex;
     margin-top: 30px;
     width: fit-content;
     text-transform: uppercase;
+    transition-delay: 0.2s;
+    transition: 0.5s ease-in;
+    border-bottom: 1px solid #fff;
+}
+
+.about-me .my-resume a:hover {
+    color: #4e8590;
     border-bottom: 1px solid #4e8590;
 }
+
+
+/* ---------------------- /
+#Contact
+/----------------------- */
