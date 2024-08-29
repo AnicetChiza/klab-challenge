@@ -176,8 +176,13 @@ body {
     margin-bottom: 40px;
 }
 
+.project-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .project-container .project-img img {
-    width: 430px;
+    width: 600px;
     height: 430px;
     object-fit: cover;
 }
