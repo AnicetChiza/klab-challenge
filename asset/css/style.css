@@ -105,7 +105,7 @@ body {
 }
 
 .toggle {
-    margin-top: 100%;
+    margin-left: 100%;
 }
 
 .menu,
@@ -441,9 +441,10 @@ textarea {
         position: absolute;
         top: 70px;
         right: 0;
+        left: 0;
         display: flex;
         width: 100%;
-        margin-top: -100%;
+        margin-left: -100%;
         padding: 80px 40px;
         flex-direction: column;
         background-color: #fff;
