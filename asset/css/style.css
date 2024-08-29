@@ -152,3 +152,24 @@ body {
     height: 400px;
     object-fit: cover;
 }
+
+
+/* ---------------------- /
+#Project
+/----------------------- */
+
+.project {
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.project h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.project .text-box {
+    width: 80%;
+}
