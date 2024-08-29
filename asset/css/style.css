@@ -177,13 +177,13 @@ body {
 
 .project .text-box {
     width: 80%;
-    margin-bottom: 40px;
 }
 
 .project-container {
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-top: 40px;
     -webkit-column-gap: 50px;
     justify-content: space-between;
 }
