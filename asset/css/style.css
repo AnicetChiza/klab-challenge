@@ -10,6 +10,10 @@
     list-style-type: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* ---------------------- /
 #General
@@ -174,10 +178,6 @@ body {
 
 .project p {
     color: #bfbfbf;
-}
-
-.project .text-box {
-    width: 80%;
 }
 
 .project-container {
