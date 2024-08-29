@@ -272,3 +272,15 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
+
+.contact .info .email {
+    color: #fff;
+    transition-delay: 0.2s;
+    transition: 0.5s ease-in-out;
+    border-bottom: 1px solid #fff;
+}
+
+.contact .info .email:hover {
+    color: #4e8590;
+    border-bottom: 1px solid #4e8590;
+}
