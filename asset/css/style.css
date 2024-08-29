@@ -448,6 +448,8 @@ textarea {
         padding: 80px 40px;
         flex-direction: column;
         background-color: #fff;
+        transition-delay: 0.2s;
+        transition: 0.5s ease-in-out;
     }
     .container .list ul a {
         color: #4b4b4b;
