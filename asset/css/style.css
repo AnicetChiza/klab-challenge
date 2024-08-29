@@ -90,3 +90,23 @@ body {
     color: #4e8590;
     border-bottom: 1px solid #4e8590;
 }
+
+
+/* ---------------------- /
+#Cover page
+/----------------------- */
+
+.cover-page {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: auto auto; */
+}
+
+.profile img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
