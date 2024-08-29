@@ -178,6 +178,9 @@ body {
 
 .project-container {
     display: flex;
+    align-items: center;
+    gap: 50px;
+    -webkit-column-gap: 50px;
     justify-content: space-between;
 }
 
@@ -185,4 +188,9 @@ body {
     width: 600px;
     height: 430px;
     object-fit: cover;
+}
+
+.project-container .project-details h3 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
 }
