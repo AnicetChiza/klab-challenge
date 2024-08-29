@@ -150,6 +150,7 @@ body {
 .cover-page .profile img {
     width: 400px;
     height: 400px;
+    border-radius: 15px;
     object-fit: cover;
 }
 
@@ -172,4 +173,11 @@ body {
 
 .project .text-box {
     width: 80%;
+    margin-bottom: 40px;
+}
+
+.project-container .project-img img {
+    width: 430px;
+    height: 430px;
+    object-fit: cover;
 }
