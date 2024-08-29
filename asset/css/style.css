@@ -171,6 +171,10 @@ body {
     text-transform: uppercase;
 }
 
+.project p {
+    color: #bfbfbf;
+}
+
 .project .text-box {
     width: 80%;
     margin-bottom: 40px;
@@ -193,10 +197,6 @@ body {
 .project-container .project-details h3 {
     font-size: 1.7rem;
     margin-bottom: 10px;
-}
-
-.project-container .project-details p {
-    color: #bfbfbf;
 }
 
 .project-container .project-details .project-items {
