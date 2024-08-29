@@ -25,8 +25,8 @@ h6 {
 }
 
 .padding {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 
@@ -103,6 +103,15 @@ body {
     justify-content: space-between;
     /* display: grid;
     grid-template-columns: auto auto; */
+}
+
+.cover-page .bloc-container {
+    color: #fff;
+}
+
+.cover-page .bloc-container h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 .profile img {
