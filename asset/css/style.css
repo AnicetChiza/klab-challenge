@@ -194,3 +194,20 @@ body {
     font-size: 1.7rem;
     margin-bottom: 10px;
 }
+
+.project-container .project-details p {
+    color: #bfbfbf;
+}
+
+.project-container .project-details .project-items {
+    margin-top: 20px;
+}
+
+.project-container .project-details .project-items div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
