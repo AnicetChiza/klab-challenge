@@ -310,12 +310,18 @@ body {
     background-color: #4e8590;
 }
 
-.formulaire form input {
+.formulaire form input,
+textarea {
     width: 100%;
     border: none;
     outline: none;
     padding: 15px 20px;
     margin-bottom: 5px;
-    background-color: #bfbfbf;
+    border-radius: 5px;
+    background-color: #ffffff;
     font-family: "Sulphur Point", sans-serif;
+}
+
+textarea {
+    height: 100px;
 }
