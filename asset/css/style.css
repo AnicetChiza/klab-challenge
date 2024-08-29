@@ -163,6 +163,7 @@ body {
     color: #fff;
     padding-top: 60px;
     padding-bottom: 60px;
+    border-bottom: 1px solid #ddd;
 }
 
 .project h2 {
