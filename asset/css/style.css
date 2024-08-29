@@ -61,13 +61,14 @@ body {
 
 .container .logo {
     font-size: 30px;
+    font-weight: 700;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
 }
 
 .container .logo span {
     font-size: 20px;
-    color: #fff;
+    color: #4e8590;
 }
 
 .container .list ul {
@@ -78,7 +79,7 @@ body {
 }
 
 .container .list ul a:hover {
-    color: #fff;
+    color: #4e8590;
 }
 
 .container .list ul .active {
@@ -86,5 +87,6 @@ body {
 }
 
 .container .list ul .active:hover {
-    border-bottom: 1px solid #fff;
+    color: #4e8590;
+    border-bottom: 1px solid #4e8590;
 }
