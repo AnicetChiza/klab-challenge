@@ -75,6 +75,11 @@ body {
     color: #4e8590;
 }
 
+.container .list {
+    display: flex;
+    align-items: center;
+}
+
 .container .list ul {
     display: flex;
     gap: 30px;
@@ -93,6 +98,17 @@ body {
 .container .list ul .active:hover {
     color: #4e8590;
     border-bottom: 1px solid #4e8590;
+}
+
+.menu i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #4b4b4b;
+    background-color: #fff;
 }
 
 
@@ -375,5 +391,43 @@ textarea {
     .cover-page .profile img {
         width: 300px;
         height: 300px;
+        border-radius: 50%;
+    }
+    .cover-page .bloc-container div {
+        justify-content: center;
+    }
+    .project-container,
+    .contact {
+        grid-template-columns: auto;
+    }
+    .about-me {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto;
+        -webkit-column-gap: 20px;
+    }
+    .contact {
+        text-align: center;
+    }
+    .icons {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 630px) {}
+
+@media screen and (max-width: 530px) {
+    .cover-page .profile img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .padding {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
