@@ -192,6 +192,7 @@ body {
 .project-container .project-img img {
     width: 600px;
     height: 430px;
+    border-radius: 15px;
     object-fit: cover;
 }
 
@@ -211,4 +212,23 @@ body {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #ddd;
+}
+
+
+/* ---------------------- /
+#About me
+/----------------------- */
+
+.about-me {
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.about-me div h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
