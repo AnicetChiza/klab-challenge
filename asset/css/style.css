@@ -100,7 +100,22 @@ body {
     border-bottom: 1px solid #4e8590;
 }
 
-.menu i {
+.hidden {
+    display: none;
+}
+
+.toggle {
+    margin-top: 100%;
+}
+
+.menu,
+.exit {
+    display: none;
+    cursor: pointer;
+}
+
+.menu i,
+.exit i {
     width: 40px;
     height: 40px;
     display: flex;
@@ -415,7 +430,28 @@ textarea {
     }
 }
 
-@media screen and (max-width: 630px) {}
+@media screen and (max-width: 630px) {
+    .menu {
+        display: flex;
+    }
+    .exit {
+        display: none;
+    }
+    .container .list ul {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        display: flex;
+        width: 100%;
+        margin-top: -100%;
+        padding: 80px 40px;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .container .list ul a {
+        color: #4b4b4b;
+    }
+}
 
 @media screen and (max-width: 530px) {
     .cover-page .profile img {
