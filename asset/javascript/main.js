@@ -7,11 +7,11 @@ const list = document.querySelector('.list ul');
 divMenu.addEventListener('click', () => {
     menu.style.display = 'none';
     menuExit.style.display = 'flex';
-    list.classList.add('toogle');
+    list.style.marginLeft = '0%';
 });
 
 exit.addEventListener('click', () => {
     menu.style.display = 'flex';
     menuExit.style.display = 'none';
-    list.classList.add('toogle');
+    list.style.marginLeft = '-100%';
 });
