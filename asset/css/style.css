@@ -104,8 +104,10 @@ body {
     height: 90vh;
     display: flex;
     align-items: center;
+    gap: 50px;
     justify-content: space-between;
     border-bottom: 1px solid #dddddd7c;
+    -webkit-column-gap: 50px;
 }
 
 .cover-page .bloc-container {
@@ -113,7 +115,7 @@ body {
 }
 
 .cover-page .bloc-container h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
 
@@ -181,16 +183,17 @@ body {
 }
 
 .project-container {
-    display: flex;
+    display: grid;
     align-items: center;
     gap: 50px;
     margin-top: 40px;
     -webkit-column-gap: 50px;
     justify-content: space-between;
+    grid-template-columns: 50% auto;
 }
 
 .project-container .project-img img {
-    width: 600px;
+    width: 100%;
     height: 430px;
     border-radius: 15px;
     object-fit: cover;
@@ -349,4 +352,28 @@ textarea {
 .submit:hover {
     color: #4b4b4b;
     background-color: #fff;
+}
+
+
+/* ---------------------- /
+#Media query
+/----------------------- */
+
+@media screen and (max-width: 1050px) {
+    .padding {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .cover-page {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cover-page .profile img {
+        width: 300px;
+        height: 300px;
+    }
 }
